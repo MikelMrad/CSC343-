@@ -22,7 +22,7 @@ export default function Categories() {
         <h1> Categories</h1>
         <div className={styles.cardContainer}>
         {categories.map((category) => (
-          <a href='Category' onClick={() =>handleFilterChange(category.id)}>
+          <a style={{textDecoration:'none'}} href='Category' onClick={() =>handleFilterChange(category.id)}>
             <Card className={styles.card}>
             <CardHeader title={category.label}/>
             <CardMedia
@@ -31,7 +31,7 @@ export default function Categories() {
               image={category.icon}
             />
             <CardContent>
-              <p>Shop {category.label}.</p>
+              <h2>Shop {category.label}.</h2>
             </CardContent>
             </Card>
           </a>

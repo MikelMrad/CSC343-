@@ -55,7 +55,7 @@ export default function Home() {
           )} 
           </a>
         </div>
-        {username !== "" ? <a href="/Login"> <h2 className={styles.username}>{username}</h2> </a>: <a href="/Login">
+        {username !== "" ? <a href="/Login" className={styles.username}> <h2>{username}</h2> </a>: <a href="/Login">
           <img 
           src={Login}
           alt='Logo'>

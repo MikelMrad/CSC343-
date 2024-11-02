@@ -52,8 +52,8 @@ export default function Login (){
 
           <h4 style={{color:'red'}}>*All Field Are Required</h4>
           
-          <button type="button" onClick={onclickLogIn}>Login</button>
-          <button type="button" onClick={onclickLogOut}>Log out</button>
+          <a href='/'><button type="button" onClick={onclickLogIn}>Login</button></a>
+          <a href='/'><button type="button" onClick={onclickLogOut}>LogOut</button></a>
         </div>
       </div>
       <Footer/>
