@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from "./storeItem.css";
+import "./storeItem.css";
 import { Card, CardContent, CardHeader, CardMedia } from '@mui/material';
 import { useDispatch } from 'react-redux';
-import { addItem } from '../../src/redux/features/cartSlice';
-import { setFilterProduct } from '@/redux/features/productSlice';
+import { addItem } from '../../redux/features/cartSlice';
+import { setFilterProduct } from '../../redux/features/productSlice';
 
 
 export default function StoreItem({ id, availableQuantity, name, price, image }) {
@@ -18,9 +18,9 @@ export default function StoreItem({ id, availableQuantity, name, price, image })
   
 
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <a href='/Product' onClick={() =>handleFilterChange(id)}>
-        <Card className={styles.card} key={id}>
+        <Card className='card' key={id}>
           <CardHeader title={name} />
           <CardMedia
             component="img"
@@ -30,7 +30,7 @@ export default function StoreItem({ id, availableQuantity, name, price, image })
           />
           <CardContent>
             <p>Price: {price}$</p>
-            <div className={styles.cardContent}>
+            <div className='cardContent'>
               <button onClick={(e) => { e.preventDefault(); handleAddToCart(); }}>
                 Add To Cart
               </button>
