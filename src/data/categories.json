@@ -2,26 +2,26 @@
     {
         "id": "Creatine",
         "label": "Creatine",
-        "icon": "/static/man.png"
+        "icon": "/images/rsp.png"
     },
     {
         "id": "Protein",
         "label": "Protein",
-        "icon": "/static/woman.png"
+        "icon": "/images/gswhey.jpg"
     },
     {
         "id": "L-Carnitine",
         "label": "L-Carnitine",
-        "icon": "/static/baby-boy.png"
+        "icon": "/images/nutrex.jpg"
     },
     {
         "id": "Vitamins",
         "label": "Vitamins",
-        "icon": "/static/earrings.png"
+        "icon": "/images/vit.png"
     },
     {
         "id": "Pre-Workout",
         "label": "Pre-Workout",
-        "icon": "/static/shoes.png"
+        "icon": "/images/ogpre.jpg"
     }
 ]

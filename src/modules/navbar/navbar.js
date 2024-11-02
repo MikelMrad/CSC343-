@@ -3,10 +3,12 @@ import Logo from "../../static/images/Logo.png"
 import Cart from "../../static/images/market.png"
 import Login from "../../static/images/user-interface.png"
 import { useAppSelector } from "../../redux/store";
+import { color } from "@mui/system";
 
 export default function Home() {
 
   const cartItems = useAppSelector((state) => state.cart.items);
+  const username = useAppSelector((state) => state.login.value.username)
 
   let cartCount = 0;
   cartItems.forEach(item => {
@@ -53,12 +55,12 @@ export default function Home() {
           )} 
           </a>
         </div>
-        <a href="/Login">
+        {username !== "" ? <a href="/Login"> <h2 className={styles.username}>{username}</h2> </a>: <a href="/Login">
           <img 
           src={Login}
           alt='Logo'>
           </img>
-        </a>
+        </a>}
       </div>
     </div>
   );

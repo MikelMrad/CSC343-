@@ -15,7 +15,7 @@ export default function Category() {
   return (
     <div>
       <NavBar/>
-      <div>
+      <div style={{marginTop:'40px'}}> 
         <Grid2 
         container
         spacing={6}>

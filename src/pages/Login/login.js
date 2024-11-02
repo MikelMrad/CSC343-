@@ -38,18 +38,24 @@ export default function Login (){
       <Navbar/>
       <div className={styles.formContainer}>
         <div className={styles.form}>
-        <label>First name:   </label>
-        <input type="text" onChange={(e)=>setUserFname(e.target.value)}/> <br/><br/>
-        <label>Last name:   </label>
-        <input type="text" onChange={(e)=>setUserLname(e.target.value)}/> <br/><br/>
-        <label>Email:   </label>
-        <input type="text" onChange={(e)=>setEmail(e.target.value)}/> <br/><br/>
-        <label>Birthday:   </label>
-        <input type="date" onChange={(e)=>setBirthday(e.target.value)}/> <br/><br/>
-        <a href="/" onClick={onclickLogIn}>Login</a>
-        <a href="/" onClick={onclickLogOut}>Log out</a>
+          <label>First name: </label>
+          <input type="text" required onChange={(e) => setUserFname(e.target.value)} /> <br /><br />
+          
+          <label>Last name: </label>
+          <input type="text" required onChange={(e) => setUserLname(e.target.value)} /> <br /><br />
+          
+          <label>Email: </label>
+          <input type="email" required onChange={(e) => setEmail(e.target.value)} /> <br /><br />
+          
+          <label>Birthday: </label>
+          <input type="date" required onChange={(e) => setBirthday(e.target.value)} /> <br /><br />
+
+          <h4 style={{color:'red'}}>*All Field Are Required</h4>
+          
+          <button type="button" onClick={onclickLogIn}>Login</button>
+          <button type="button" onClick={onclickLogOut}>Log out</button>
         </div>
-      </div>  
+      </div>
       <Footer/>
     </div>
   )

@@ -19,9 +19,9 @@ export default function StoreItem({ id, availableQuantity, name, price, image })
 
   return (
     <div>
-      <a href='/Product' onClick={() =>handleFilterChange(id)}>
+      <a href='/Product' onClick={() =>handleFilterChange(id)} style={{textDecoration:'none'}}>
         <Card className={styles.card} key={id}>
-          <CardHeader title={name} />
+        <CardHeader title={name} />
           <CardMedia
             component="img"
             alt="Product Image"

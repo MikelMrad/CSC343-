@@ -13,7 +13,7 @@ export default function Footer() {
             <img 
             src={Logo}
             alt="Logo"
-            width={150}
+            width={200}
             id='logo'> 
             </img>
           </a>
@@ -22,24 +22,24 @@ export default function Footer() {
               <img 
               src={FacebookImage}
               alt="Logo"
-              width={20}
-              height={20}> 
+              width={30}
+              height={30}> 
               </img>
             </a>
             <a href="">
               <img 
               src={XImage}
               alt="Logo"
-              width={20}
-              height={20}> 
+              width={30}
+              height={30}> 
               </img>
             </a>
             <a href="">
               <img 
               src={InstagramImage}
               alt="Logo"
-              width={20}
-              height={20}> 
+              width={30}
+              height={30}> 
               </img>
             </a>  
           </div>

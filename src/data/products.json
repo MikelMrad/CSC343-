@@ -1,71 +1,71 @@
 [{
 	"id": "1",
 	"name": "InnerArmor Creatine",
-	"price": 19,
+	"price": 25,
 	"image": "/images/inner-armour-creatine.png",
 	"categorie": "Creatine",
 	"availableQuantity": 3
 },{
 	"id": "2",
 	"name": "InnerArmor Whey Protein",
-	"price": 29,
+	"price": 49,
 	"image": "/images/innerProtein.png",
 	"categorie": "Protein",
 	"availableQuantity":1
 },{
 	"id": "3",
 	"name": "Biotech L-Carnitine",
-	"price": 9,
+	"price": 19,
 	"image": "/images/lcarnitinebio.png",
 	"categorie": "L-Carnitine",
 	"availableQuantity":14
 },{
 	"id": "4",
 	"name": "Horbaach Multi-Vitamins",
-	"price": 19,
+	"price": 15,
 	"image": "/images/MultiVit.jpg",
 	"categorie": "Vitamins",
 	"availableQuantity":5
 },{
 	"id": "5",
-	"name": "Sneakers",
-	"price": 49,
-	"image": "/static/istockphoto-1324847242-612x612.jpg",
+	"name": "Optimum Nutrion Pre-Workout",
+	"price": 30,
+	"image": "/images/ogpre.jpg",
 	"categorie": "Pre-Workout",
 	"availableQuantity":8
 },{
 	"id": "6",
-	"name": "InnerArmor Creatine",
+	"name": "RSP Creatine",
 	"price": 19,
-	"image": "/static/inner-armour-creatine.png",
+	"image": "/images/rsp.png",
 	"categorie": "Creatine",
-	"availableQuantity":3
+	"availableQuantity": 7
 },{
 	"id": "7",
-	"name": "InnerArmor Whey Protein",
-	"price": 29,
-	"image": "/static/images/inner-armour-creatine.png",
+	"name": "MuscleTech Whey Protein",
+	"price": 59,
+	"image": "/images/mtwhey.jpg",
 	"categorie": "Protein",
-	"availableQuantity":1
+	"availableQuantity":3
 },{
 	"id": "8",
-	"name": "Baby T-Shirt",
-	"price": 9,
-	"image": "/static/depositphotos_152881742-stock-photo-white-baby-onesie-isolated-over.jpg",
+	"name": "Nutrex L-Carnitine",
+	"price": 20,
+	"image": "/images/nutrex.jpg",
 	"categorie": "L-Carnitine",
-	"availableQuantity":14
+	"availableQuantity":4
 },{
 	"id": "9",
-	"name": "Vitamins",
-	"price": 19,
-	"image": "/static/ecommerce-nacklace-photography-1024x1024.jpg",
+	"name": "VitaHealth Vitamin B",
+	"price": 10,
+	"image": "/images/vit.png",
 	"categorie": "Vitamins",
 	"availableQuantity":5
 },{
 	"id": "10",
-	"name": "Sneakers",
-	"price": 49,
-	"image": "/static/istockphoto-1324847242-612x612.jpg",
+	"name": "Total War Pre-Workout",
+	"price": 23,
+	"image": "/images/twpre.png",
 	"categorie": "Pre-Workout",
-	"availableQuantity":8
+	"availableQuantity":4
 }]

@@ -18,8 +18,7 @@ export default function landing() {
         style={{marginTop:'20px'}}>
         {Products.map(item => (
           <Grid2 size={2.4} key={item.id}>
-            <StoreItem {...item}/> 
-            {console.log({...item})}
+            <StoreItem {...item}/>
           </Grid2>
         ))}
         </Grid2>
