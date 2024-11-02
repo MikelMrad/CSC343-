@@ -25,7 +25,7 @@ export default function StoreItem({ id, availableQuantity, name, price, image })
           <CardMedia
             component="img"
             alt="Product Image"
-            image="/public/images/inner-armour-creatine.png"
+            image={image}
             height={300}
           />
           <CardContent>
