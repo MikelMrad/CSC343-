@@ -1,4 +1,4 @@
-import "./navbar.css";
+import styles from "./navbar.module.css";
 import Logo from "../../static/images/Logo.png"
 import Cart from "../../static/images/market.png"
 import Login from "../../static/images/user-interface.png"
@@ -14,24 +14,24 @@ export default function Home() {
   });
 
   return (
-    <div className='container'>
-      <div className='logo'>
+    <div className={styles.container}>
+      <div className={styles.logo}>
         <a href="/">
         <img 
         src={Logo}
-        className='navImg'
+        className={styles.navImg}
         alt='Logo'>
         </img>
         </a>
       </div>
-      <div className='navLinks'>
+      <div className={styles.navLinks}>
         <a href='/'>Home</a>
         <a href='/Store'>Shop Now</a>
         <a href='/Categories'>Categories</a>
         <a href='/AboutUs'>About Us</a>
         <a href='/ContactUs'>Contact Us</a>
       </div>
-      <div className='login'>
+      <div className={styles.login}>
         <div style={{ position: 'relative' }}>
           <a href="/Cart">
           <img 

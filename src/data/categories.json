@@ -1,27 +1,27 @@
 [
     {
-        "id": "men",
-        "label": "Men",
+        "id": "Creatine",
+        "label": "Creatine",
         "icon": "/static/man.png"
     },
     {
-        "id": "women",
-        "label": "Women",
+        "id": "Protein",
+        "label": "Protein",
         "icon": "/static/woman.png"
     },
     {
-        "id": "kids",
-        "label": "Kids",
+        "id": "L-Carnitine",
+        "label": "L-Carnitine",
         "icon": "/static/baby-boy.png"
     },
     {
-        "id": "accessories",
-        "label": "Accessories",
+        "id": "Vitamins",
+        "label": "Vitamins",
         "icon": "/static/earrings.png"
     },
     {
-        "id": "footwear",
-        "label": "Footwear",
+        "id": "Pre-Workout",
+        "label": "Pre-Workout",
         "icon": "/static/shoes.png"
     }
 ]

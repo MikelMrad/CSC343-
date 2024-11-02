@@ -3,12 +3,12 @@ import Logo from "../../static/images/Logo.png"
 import FacebookImage from "../../static/images/facebook.png";
 import XImage from "../../static/images/x.png";
 import InstagramImage from "../../static/images/instagram.png";
-import "./footer.css"
+import styles from "./footer.module.css"
 
 export default function Footer() {
   return (
-    <div className='footer'>
-      <div className='footerContainer'>
+    <div className={styles.footer}>
+      <div className={styles.footerContainer}>
           <a>
             <img 
             src={Logo}
@@ -17,14 +17,13 @@ export default function Footer() {
             id='logo'> 
             </img>
           </a>
-          <div className='footerSocialsContainer'>
+          <div className={styles.footerSocialsContainer}>
             <a href="">
               <img 
               src={FacebookImage}
               alt="Logo"
               width={20}
-              height={20}
-              className="social-image"> 
+              height={20}> 
               </img>
             </a>
             <a href="">
@@ -32,8 +31,7 @@ export default function Footer() {
               src={XImage}
               alt="Logo"
               width={20}
-              height={20}
-              className="social-image"> 
+              height={20}> 
               </img>
             </a>
             <a href="">
@@ -41,13 +39,12 @@ export default function Footer() {
               src={InstagramImage}
               alt="Logo"
               width={20}
-              height={20}
-              className="social-image"> 
+              height={20}> 
               </img>
             </a>  
           </div>
-          <div className='textContainer'>
-            <div className='rightTextContainer'>
+          <div className={styles.textContainer}>
+            <div className={styles.rightTextContainer}>
               <a href="">
                 Privacy & Policies
               </a>

@@ -1,36 +1,71 @@
 [{
 	"id": "1",
-	"name": "Men T-Shirt",
+	"name": "InnerArmor Creatine",
 	"price": 19,
-	"image": "/static/il_570xN.3725049367_1nvz.jpg",
-	"categorie": "men",
-	"availableQuantity":3
+	"image": "/public/static/inner-armour-creatine.png",
+	"categorie": "Creatine",
+	"availableQuantity": 3
 },{
 	"id": "2",
-	"name": "Women T-Shirt",
+	"name": "InnerArmor Whey Protein",
 	"price": 29,
-	"image": "/static/pleasures-nigt-1-t-1_grande.jpg",
-	"categorie": "women",
+	"image": "/static/images/inner-armour-creatine.png",
+	"categorie": "Protein",
 	"availableQuantity":1
 },{
 	"id": "3",
 	"name": "Baby T-Shirt",
 	"price": 9,
 	"image": "/static/depositphotos_152881742-stock-photo-white-baby-onesie-isolated-over.jpg",
-	"categorie": "kids",
+	"categorie": "L-Carnitine",
 	"availableQuantity":14
 },{
 	"id": "4",
-	"name": "Accessories",
+	"name": "Vitamins",
 	"price": 19,
 	"image": "/static/ecommerce-nacklace-photography-1024x1024.jpg",
-	"categorie": "accessories",
+	"categorie": "Vitamins",
 	"availableQuantity":5
 },{
 	"id": "5",
 	"name": "Sneakers",
 	"price": 49,
 	"image": "/static/istockphoto-1324847242-612x612.jpg",
-	"categorie": "footwear",
+	"categorie": "Pre-Workout",
+	"availableQuantity":8
+},{
+	"id": "6",
+	"name": "InnerArmor Creatine",
+	"price": 19,
+	"image": "/static/inner-armour-creatine.png",
+	"categorie": "Creatine",
+	"availableQuantity":3
+},{
+	"id": "7",
+	"name": "InnerArmor Whey Protein",
+	"price": 29,
+	"image": "/static/images/inner-armour-creatine.png",
+	"categorie": "Protein",
+	"availableQuantity":1
+},{
+	"id": "8",
+	"name": "Baby T-Shirt",
+	"price": 9,
+	"image": "/static/depositphotos_152881742-stock-photo-white-baby-onesie-isolated-over.jpg",
+	"categorie": "L-Carnitine",
+	"availableQuantity":14
+},{
+	"id": "9",
+	"name": "Vitamins",
+	"price": 19,
+	"image": "/static/ecommerce-nacklace-photography-1024x1024.jpg",
+	"categorie": "Vitamins",
+	"availableQuantity":5
+},{
+	"id": "10",
+	"name": "Sneakers",
+	"price": 49,
+	"image": "/static/istockphoto-1324847242-612x612.jpg",
+	"categorie": "Pre-Workout",
 	"availableQuantity":8
 }]

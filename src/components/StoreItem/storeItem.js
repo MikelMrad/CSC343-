@@ -1,5 +1,5 @@
 import React from 'react';
-import "./storeItem.css";
+import styles from "./storeItem.module.css";
 import { Card, CardContent, CardHeader, CardMedia } from '@mui/material';
 import { useDispatch } from 'react-redux';
 import { addItem } from '../../redux/features/cartSlice';
@@ -18,19 +18,19 @@ export default function StoreItem({ id, availableQuantity, name, price, image })
   
 
   return (
-    <div className='container'>
+    <div>
       <a href='/Product' onClick={() =>handleFilterChange(id)}>
-        <Card className='card' key={id}>
+        <Card className={styles.card} key={id}>
           <CardHeader title={name} />
           <CardMedia
             component="img"
             alt="Product Image"
-            image={image}
+            image="/public/images/inner-armour-creatine.png"
             height={300}
           />
           <CardContent>
             <p>Price: {price}$</p>
-            <div className='cardContent'>
+            <div className={styles.cardContent}>
               <button onClick={(e) => { e.preventDefault(); handleAddToCart(); }}>
                 Add To Cart
               </button>
