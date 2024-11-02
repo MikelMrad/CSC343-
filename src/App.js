@@ -10,6 +10,7 @@ import Category from './pages/Category/category.js';
 import Categories from './pages/Categories/categories.js';
 import Store from './pages/Store/store.js';
 import Login from './pages/Login/login.js';
+import Checkout from './pages/Checkout/checkout.js';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               <Route path='/Categories' element={<Categories />} />
               <Route path='/Store' element={<Store />} />
               <Route path='/Login' element={<Login />} />
+              <Route path='/Checkout' element={<Checkout />} />
           </Routes>
         </BrowserRouter>
       </PersistGate>

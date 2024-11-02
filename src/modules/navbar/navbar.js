@@ -44,11 +44,11 @@ export default function Home() {
               position: 'absolute',
               top: '0',
               right: '0',
-              backgroundColor: 'black',
+              backgroundColor: '#3db4e5',
               color: 'white',
               borderRadius: '50%',
-              padding: '5px 10px',
-              fontSize: '12px',
+              padding: '2px 6px',
+              fontSize: '16px',
             }}>
           {cartCount}
             </span>
