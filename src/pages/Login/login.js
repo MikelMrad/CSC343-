@@ -37,7 +37,8 @@ export default function Login (){
     <div className={styles.container}>
       <Navbar/>
       <div className={styles.formContainer}>
-        <div className={styles.form}>
+      <div className={styles.form}>
+        <form onSubmit={(e) => { e.preventDefault(); onclickLogIn(); }}>
           <label>First name: </label>
           <input type="text" required onChange={(e) => setUserFname(e.target.value)} /> <br /><br />
           
@@ -48,13 +49,14 @@ export default function Login (){
           <input type="email" required onChange={(e) => setEmail(e.target.value)} /> <br /><br />
           
           <label>Birthday: </label>
-          <input type="date" required onChange={(e) => setBirthday(e.target.value)} /> <br /><br />
+          <input type="date" max="2023-12-31" required onChange={(e) => setBirthday(e.target.value)} /> <br /><br />
 
-          <h4 style={{color:'red'}}>*All Field Are Required</h4>
+          <h4 style={{ color: 'red' }}>*All Fields Are Required</h4>
           
-          <a href='/'><button type="button" onClick={onclickLogIn}>Login</button></a>
-          <a href='/'><button type="button" onClick={onclickLogOut}>LogOut</button></a>
-        </div>
+          <button type="submit">Login</button>
+        </form>
+        <button type="button" onClick={onclickLogOut}>LogOut</button>
+      </div>
       </div>
       <Footer/>
     </div>
