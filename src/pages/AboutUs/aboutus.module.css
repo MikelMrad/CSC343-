@@ -1,0 +1,28 @@
+.aboutUsContainer {
+  color: #231f20;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.introText {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #231f20;
+}
+
+.storeName {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.sectionTitle {
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #00bfff;
+}
+
+.text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+

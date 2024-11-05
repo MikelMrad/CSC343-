@@ -10,16 +10,12 @@ export default function page() {
   return (
     <div>
       <NavBar/>
-      <div style={{margin:'20px'}}>
-        <Grid2 
-        container
-        spacing={6}>
+      <div className={styles.container}>
         {StoreItems.map(item => (
           <Grid2 size={3}>
             <StoreItem {...item} key={item.id} /> 
           </Grid2>
         ))}
-        </Grid2>
       </div>
       <Footer/>
     </div>

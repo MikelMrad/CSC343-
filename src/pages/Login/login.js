@@ -53,7 +53,7 @@ export default function Login (){
 
           <h4 style={{ color: 'red' }}>*All Fields Are Required</h4>
           
-          <button type="submit">Login</button>
+          <button type="submit">Register</button>
         </form>
         <button type="button" onClick={onclickLogOut}>LogOut</button>
       </div>

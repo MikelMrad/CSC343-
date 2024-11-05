@@ -19,7 +19,7 @@ export default function Banner() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 3,
           infinite: true,
           dots: true
@@ -28,7 +28,7 @@ export default function Banner() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 2,
           initialSlide: 2
         }
@@ -46,7 +46,7 @@ export default function Banner() {
     {
       id: 1,
       image: image1,
-      title: "Improve Your Lifestyle Now !",
+      title: "Improve Your Lifestyle Now!",
       description:
         "Click Here!! ",
     },

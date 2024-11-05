@@ -12,16 +12,11 @@ export default function landing() {
     <div>
       <Navbar/>
       <Banner/>
-      <Grid2 
-        container
-        spacing={4}
-        style={{marginTop:'20px'}}>
+      <div className={styles.container}>
         {Products.map(item => (
-          <Grid2 size={2.4} key={item.id}>
             <StoreItem {...item}/>
-          </Grid2>
         ))}
-        </Grid2>
+        </div>
       <Footer/>
     </div>
   )
