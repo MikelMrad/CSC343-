@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import NavBar from '../../modules/navbar/navbar'
+import NavBar from '../../modules/navbar/navbar';
 import Footer from '../../modules/footer/footer';
-import Styles from './contactus.module.css'
+import Styles from './contactus.module.css';
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -54,57 +54,61 @@ const ContactForm = () => {
     return (
       <div>
         <NavBar/>
-          <form onSubmit={handleSubmit}>
-              <label>
-                  Name:
-                  <input
-                      type="text"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      required
-                  />
-                  {errors.name && <p style={{ color: 'red' }}>{errors.name}</p>}
-              </label>
-              <br />
-              <label>
-                  Email:
-                  <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                  />
-                  {errors.email && <p style={{ color: 'red' }}>{errors.email}</p>}
-              </label>
-              <br />
-              <label>
-                  Subject:
-                  <input
-                      type="text"
-                      name="subject"
-                      value={formData.subject}
-                      onChange={handleChange}
-                  />
-                  {errors.subject && <p style={{ color: 'red' }}>{errors.subject}</p>}
-              </label>
-              <br />
-              <label>
-                  Message:
-                  <textarea
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      required
-                  ></textarea>
-                  {errors.message && <p style={{ color: 'red' }}>{errors.message}</p>}
-              </label>
-              <br />
-              <button type="submit">Submit</button>
-          </form>
-          <Footer/>
-        </div>
+        <form onSubmit={handleSubmit} className={Styles.formContainer}>
+            <label className={Styles.label}>
+                Name:
+                <input
+                    type="text"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className={Styles.input}
+                />
+                {errors.name && <p className={Styles.errorMessage}>{errors.name}</p>}
+            </label>
+            
+            <label className={Styles.label}>
+                Email:
+                <input
+                    type="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className={Styles.input}
+                />
+                {errors.email && <p className={Styles.errorMessage}>{errors.email}</p>}
+            </label>
+            
+            <label className={Styles.label}>
+                Subject:
+                <input
+                    type="text"
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    className={Styles.input}
+                />
+                {errors.subject && <p className={Styles.errorMessage}>{errors.subject}</p>}
+            </label>
+            
+            <label className={Styles.label}>
+                Message:
+                <textarea
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    className={Styles.textarea}
+                ></textarea>
+                {errors.message && <p className={Styles.errorMessage}>{errors.message}</p>}
+            </label>
+            
+            <button type="submit" className={Styles.button}>Submit</button>
+        </form>
+        <Footer/>
+      </div>
     );
 };
 

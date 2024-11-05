@@ -1,4 +1,3 @@
-'use client'
 import React, { useState } from 'react';
 import styles from "./checkout.module.css";
 import RightSideCart from "../../modules/RightSideCart/index";

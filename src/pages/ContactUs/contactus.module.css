@@ -1,41 +1,39 @@
-form {
-  background-color: #1a1a1a; /* Dark background */
+.formContainer {
+  background-color: #1a1a1a;
   padding: 20px;
   border-radius: 8px;
   max-width: 500px;
-  margin: 20px auto; /* Center the form */
-  color: #fff; /* White text */
+  margin: 20px auto;
+  color: #fff;
 }
 
-form label {
+.label {
   display: block;
   margin-bottom: 8px;
   margin-right: 25px;
   font-weight: bold;
-  color: #ddd; /* Light gray label color */
+  color: #ddd;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="subject"],
-form textarea {
+.input,
+.textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #333;
   border-radius: 4px;
   background-color: #2c2c2c;
-  color: #fff; 
+  color: #fff;
   font-size: 16px;
 }
 
-form textarea {
+.textarea {
   resize: vertical;
   min-height: 100px;
 }
 
-form button {
-  background-color: #007bff; /* Blue button */
+.button {
+  background-color: #007bff;
   color: #fff;
   padding: 10px 15px;
   font-size: 16px;
@@ -45,11 +43,11 @@ form button {
   transition: background-color 0.3s ease;
 }
 
-form button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+.button:hover {
+  background-color: #0056b3;
 }
 
-form p {
+.errorMessage {
   color: red;
   font-size: 14px;
   margin-top: -10px;
