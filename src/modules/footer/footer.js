@@ -45,13 +45,10 @@ export default function Footer() {
           </div>
           <div className={styles.textContainer}>
             <div className={styles.rightTextContainer}>
-              <a href="">
-                Privacy & Policies
+              <a href="/About-Us">
+                About Us
               </a>
-              <a href="/TermsAndConditions">
-                Terms & Conditions
-              </a>
-              <a href="/ContactUs">
+              <a href="/Contact-Us">
                 Contact Us
               </a>
             </div>

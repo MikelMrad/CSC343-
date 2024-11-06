@@ -84,7 +84,6 @@
   text-decoration: none;
 }
 
-/* Burger menu styling */
 .burger {
   display: none;
   flex-direction: column;
@@ -112,12 +111,10 @@
     padding: 20px 0;
   }
 
-  /* Show navLinks when menu is toggled */
   .showMenu {
     display: flex;
   }
 
-  /* Burger menu icon visible only on small screens */
   .burger {
     display: flex;
   }

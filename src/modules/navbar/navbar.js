@@ -6,7 +6,7 @@ import Login from "../../static/images/user-interface.png";
 import { useAppSelector } from "../../redux/store";
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false); // State to control burger menu
+  const [isOpen, setIsOpen] = useState(false);
 
   const cartItems = useAppSelector((state) => state.cart.items);
   const username = useAppSelector((state) => state.login.value.username);
@@ -32,14 +32,12 @@ export default function Home() {
         </a>
       </div>
 
-      {/* Burger Icon for Mobile */}
       <div className={styles.burger} onClick={toggleMenu}>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
         <div className={styles.line}></div>
       </div>
 
-      {/* Nav Links with conditional class */}
       <div className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
         <a href='/'>Home</a>
         <a href='/Store'>Shop Now</a>
@@ -73,7 +71,7 @@ export default function Home() {
         </div>
         {username !== "" ? (
           <a href="/Login" className={styles.username}> 
-            <h2>{username}</h2> 
+            <h2 >{username}</h2> 
           </a>
         ) : (
           <a href="/Login">

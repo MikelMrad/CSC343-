@@ -78,7 +78,7 @@ export default function Banner() {
               </div>
               <div className='bannerText'>
                 <h1>{slide.title}</h1>
-                <a href="">{slide.description}</a>
+                <a href="/Store">{slide.description}</a>
               </div>
             </div>
           ))}
