@@ -29,17 +29,17 @@
   display: block;
 }
 
-.checkboxContainer, .radioContainer {
+.radioContainer {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.checkbox, .radio {
+.radio {
   margin-right: 8px;
 }
 
-.checkboxLabel, .radioLabel {
+.radioLabel {
   font-size: 14px;
 }
 
